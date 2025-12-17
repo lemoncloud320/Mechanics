@@ -1,0 +1,24 @@
+{
+  "id": "kin_proj_005",
+  "chapter": "Kinematics",
+  "subchapter": "Projectiles",
+  "difficulty": "undergrad_problem",
+  "problem_text": "Two projectiles A and B are launched with speed \(v_0\). A is launched at angle \(\\theta\), B at \(90^\circ - \\theta\). Show that their ranges are equal and find when their maximum heights are equal.",
+  "variables": ["v0", "θ", "g"],
+  "latex_equations": [
+    "R = \\frac{v_0^2\\sin(2\\theta)}{g}",
+    "H = \\frac{v_0^2\\sin^2\\theta}{2g}"
+  ],
+  "diagram_request": "Two complementary trajectories (θ and 90°−θ) showing equal range and different heights.",
+  "diagram_path": "../images/kin_proj_005.svg",
+  "concept_tags": ["symmetry","complementary angles","range"],
+  "solution_steps": [
+    "Compute R_A and R_B using sin(2θ) identity.",
+    "Heights equal only if sin^2θ = cos^2θ → θ=45°."
+  ],
+  "common_mistakes": [
+    "Assuming complementary angles give equal heights",
+    "Mixing degrees and radians"
+  ],
+  "license": "CC-BY-Internal"
+}
