@@ -1,0 +1,22 @@
+{
+  "id": "kin_proj_006",
+  "chapter": "Kinematics",
+  "subchapter": "Projectiles",
+  "difficulty": "undergrad_applied",
+  "problem_text": "Using calculus, find the angle that maximizes the range \(R(\\theta)=\\frac{v_0^2 \sin(2\\theta)}{g}\).",
+  "variables": ["v0", "θ", "g"],
+  "latex_equations": [
+    "R(\\theta)=\\frac{v_0^2\\sin(2\\theta)}{g}"
+  ],
+  "diagram_request": "Single projectile trajectory with annotated angle θ and range R; show variation of θ near optimum.",
+  "diagram_path": "../images/kin_proj_006.svg",
+  "concept_tags": ["optimization","derivatives"],
+  "solution_steps": [
+    "Differentiate R'(θ) = (2v0^2/g) cos(2θ).",
+    "Set derivative = 0 → cos(2θ)=0 → θ=45° in physical domain."
+  ],
+  "common_mistakes": [
+    "Setting sin(2θ)=1 without calculus justification"
+  ],
+  "license": "CC-BY-Internal"
+}
