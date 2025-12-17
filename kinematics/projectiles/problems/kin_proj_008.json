@@ -1,0 +1,25 @@
+{
+  "id": "kin_proj_008",
+  "chapter": "Kinematics",
+  "subchapter": "Projectiles",
+  "difficulty": "undergrad_calculus",
+  "problem_text": "Given \(x(t)=v_0\\cos\\theta\\,t\) and \(y(t)=v_0\\sin\\theta\\,t - \\tfrac{1}{2}gt^2\), (a) compute the speed \(v(t)\). (b) Find when the speed is minimum and compute that minimum.",
+  "variables": ["v0","θ","g","t"],
+  "latex_equations": [
+    "\\dot x=v_0\\cos\\theta, \\quad \\dot y=v_0\\sin\\theta-gt",
+    "v(t)=\\sqrt{(v_0\\cos\\theta)^2+(v_0\\sin\\theta-gt)^2}"
+  ],
+  "diagram_request": "Trajectory with tangent velocity vector at time t; show minimum-speed point at apex.",
+  "diagram_path": "../images/kin_proj_008.svg",
+  "concept_tags": ["speed minimization","vector calculus"],
+  "solution_steps": [
+    "Compute v²(t) then minimize v² instead of v.",
+    "Derivative → t_min = (v0 sinθ)/g.",
+    "Minimum speed = v0 cosθ."
+  ],
+  "common_mistakes": [
+    "Minimizing v instead of v²",
+    "Forgetting that dy/dt = 0 at apex"
+  ],
+  "license": "CC-BY-Internal"
+}
