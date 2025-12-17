@@ -1,0 +1,24 @@
+{
+  "id": "kin_proj_003",
+  "chapter": "Kinematics",
+  "subchapter": "Projectiles",
+  "difficulty": "undergrad_intro",
+  "problem_text": "A projectile must pass through a point at \((x_p, y_p)\). Determine the required launch angle(s) for a given launch speed \(v_0\).",
+  "variables": ["v0", "x_p", "y_p", "θ", "g"],
+  "latex_equations": [
+    "y_p = x_p\\tan\\theta - \\frac{g x_p^2}{2 v_0^2\\cos^2\\theta}"
+  ],
+  "diagram_request": "Origin launch to a target point (x_p,y_p); show possible low-angle and high-angle solutions.",
+  "diagram_path": "../images/kin_proj_003.svg",
+  "concept_tags": ["trajectory targeting","inverse problem","quadratic in tanθ"],
+  "solution_steps": [
+    "Eliminate time using t = x_p/(v_0 cosθ).",
+    "Obtain equation in tanθ and solve quadratic.",
+    "Two solutions exist if discriminant ≥ 0."
+  ],
+  "common_mistakes": [
+    "Forgetting identity 1/cos^2θ = 1 + tan^2θ",
+    "Dropping terms leading to linear instead of quadratic equation"
+  ],
+  "license": "CC-BY-Internal"
+}
